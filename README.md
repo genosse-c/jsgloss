@@ -20,6 +20,7 @@ var glossary = [
     {term: 'voluptua', definition: 'Lorem ipsum dolor sit āmet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, nò sea takimata sanctus est Lorem ipsum dolor sit amet.'}
 ]
 ```
+You can view the demo page at https://genosse-c.github.io/jsgloss/
 
 ## Customizations
 Currently this little library does not take any options. But you might want to customize which elements
