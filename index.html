@@ -8,17 +8,17 @@
     <script type="text/javascript" src="jsgloss.js" ></script>
     <script>
 document.addEventListener("DOMContentLoaded", function(){
-  // Create an instance of mark.js and pass an argument containing
+  // Create an instance of JSgloss and pass an argument containing
   // the DOM object of the context (where to search for matches)
   var jsgloss = new JSGloss(document.querySelector("body"));
-  // Cache DOM elements
+  // Glossary with search terms and definitions
   var glossary = [
     {term: 'lorem', definition: 'ipsum'},
     {term: 'sed', definition: 'aber'},
-    {term: 'JSGloss', definition: 'for pages requiring a glossary'},
+    {term: 'JSGloss', definition: 'for pages requiring a glossary'}, //won't be found because search term exists only in excluded element
     {term: 'voluptua', definition: 'Lorem ipsum dolor sit āmet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, nò sea takimata sanctus est Lorem ipsum dolor sit amet.'}
   ]
-
+  //start search
   jsgloss.addGlossary(glossary);
 });
     </script>
