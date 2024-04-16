@@ -2,7 +2,7 @@
 
 ## Usage
 Download js and css file and include in the pages requiring a glossary
-1. Instantiate the JSGloss class with a being a valid CSS selector defining the root element:<br/>
+1. Instantiate the JSGloss class with a valid CSS selector defining the root element:<br/>
 `let jsgloss = new JSGloss(<selector>)`
 2. Call addGlossary() on the instance with the glossary as argument:<br/>
 `jsgloss.addGlossary(<glossary>)`
